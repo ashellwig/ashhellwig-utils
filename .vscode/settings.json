@@ -15,10 +15,6 @@
   /// Linting
   "shellcheck.enable": true,
   "shellcheck.executablePath": "/home/ahellwig/.local/bin/shellcheck",
-  "shellcheck.customArgs": [
-    "-s=bash",
-    "-S=style"
-  ],
   /// Formatting
   "shellformat.effectLanguages": [
     "shellscript",
