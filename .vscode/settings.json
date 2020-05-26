@@ -1,0 +1,54 @@
+{
+  // JSON & JSONC
+  /// Language Defaults
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Shell
+  /// Linting
+  "shellcheck.enable": true,
+  "shellcheck.executablePath": "/home/ahellwig/.local/bin/shellcheck",
+  "shellcheck.customArgs": [
+    "-s=bash",
+    "-S=style"
+  ],
+  /// Formatting
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+  ],
+  "shellformat.path": "/home/ahellwig/go/bin/shfmt",
+  "shellformat.flag": "-ln bash -i 2 -bn -ci -sr",
+  /* Global Settings */
+  // Files
+  "files.associations": {
+    "*.js": "javascript",
+    "LICENSE": "plaintext"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.gitkeep": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  // Spell Checker
+  "cSpell.enabled": false
+}

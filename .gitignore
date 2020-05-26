@@ -1,0 +1,9 @@
+# Secret Environments
+*_environment.sh/**
+**/*_environment.sh/**
+*.env/**
+**/*.env/**
+*.env.*/**
+**/*.env.*/**
+.env.*/**
+**/.env.*/**
